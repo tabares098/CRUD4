@@ -6,33 +6,75 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background:rgb(61, 107, 126);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.user-list  li{
+  box-sizing: border-box;
+  background-color: rgb(155, 179, 179);
+  margin-top: 20px;
+  list-style: none;
+  text-align: left;
+  right:80%;
+  height: 200px;
+  margin-right: 50px;
+  margin-left: 30px;
+  border-radius:8px;
+  
+}
+.btn{
+  text-align: right;
+  align-items: right;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top:-30px;
+}
+.name{
+  margin-left: 10px;
+  font-size: 40px;
+}
+.email{
+  margin-left: 10px;
+  font-size: 15px;
+}
+.input-container{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.input{
+  width: 350px;
+  border-radius:7px;
+  height: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bbtn{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius:10px;
+}
+.inp{
+  height: 30px;
+  border-radius:7px;
+}
+.inp:hover{
+background-color:rgb(183, 196, 196);
+}
+.btn :hover{
+  -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  border-color: aqua;
+}
+.bbtn:hover{
+  -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  border-color: aqua;
+  
+}
+.input:hover{
+  background-color:rgb(183, 196, 196);
+  border-color:rgb(158, 23, 170);
 }
