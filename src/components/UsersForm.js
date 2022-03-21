@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const UsersForm = ({getUsers, userselected,setUserselected}) => {
     const[birthday,setBirthday] = useState("");
